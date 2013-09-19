@@ -1,0 +1,91 @@
+﻿<html>
+<head>
+  <title>Programeringsspråk</title>
+  <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+  <style type="text/css">
+  body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d }
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+  </style>
+</head>
+<body>
+<center>
+<form>
+		<label for="proglangs">Velg programmeringsspråk:</label>
+		<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+		<option value="..." >	</option>
+		<option value="asp">ActionScript</option>
+		<option value="asp">AppleScript</option>
+		<option value="asp">Asp</option>
+		<option value="basic">BASIC</option>
+		<option value="c">C</option>
+		<option value="cplusspluss">C++</option>
+		<option value="cplusspluss">Clojure</option>
+		<option value="cplusspluss">COBOL</option>
+		<option value="cf">ColdFusion</option>
+		<option value="er">Erlang</option>
+		<option value="ft">Fortran</option>
+		<option value="gry">Groovy</option>
+		<option value="hk">Haskell</option>
+		<option value="jv">Java</option>
+		<option value="jvs">JavaScript</option>
+		<option value="lisp">Lisp</option>
+		<option value="perl">Perl</option>
+		<option value="phy">Python</option>
+		<option value="ruby">Ruby</option>
+		<option value="scala">Scala</option>
+		<option value="She">Scheme</option>
+		</select>
+
+</form>
+</center>
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="lab2.html">Hjem</a>
+  <li><a href="kronologisk.html">Kronologisk</a>
+  <li><a href="Hierarkisk.html">Hierarkisk</a>
+  <li><a href="Alfabetisk.html">Alfabetisk</a>
+</ul>
+
+<!-- Main content -->
+<h1>Programmeringsspråk</h1>
+
+<p> <span id="outputbox">Velkommen til en mystisk verden av Programmeringsspråk!</span>
+<script src="lab2.js"></script>
+
+
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Lagd 18. September 2013<br>
+  av Thomas Markussen.</address>
+</body>
+</html>
